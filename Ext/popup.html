@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Collector</title>
+    <style>
+      body {
+        min-width: 250px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        background: #9d9d9d;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #f8d3d3;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 40px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="baseUrlInput" placeholder="Enter Base URL (e.g., hackerRank.com)" />
+    <input type="text" id="innerTextInput" placeholder="Enter The innerText (e.g., Submit)" />
+    <input
+      type="text"
+      id="queryTextInput"
+      placeholder="Enter The query (e.g., a.optional-action-target-wrapper)"
+    />
+    <button id="collectLinks">Collect Links</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
