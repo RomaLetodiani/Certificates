@@ -1,4 +1,4 @@
-export const certificates = [
+const Udemy = [
   {
     href: "https://www.udemy.com/certificate/UC-5d95d893-4c26-4c65-bdda-24d902690a42/",
     text: "Python For Beginners - Learn all Basics\nPython For Beginners - Learn all Basics\nUdemy\nUdemy\nIssued May 2024\nIssued May 2024\nCredential ID UC-5d95d893-4c26-4c65-bdda-24d902690a42/\nCredential ID UC-5d95d893-4c26-4c65-bdda-24d902690a42/",
@@ -449,10 +449,101 @@ export const certificates = [
   },
   {
     href: "https://www.udemy.com/certificate/UC-9ffae867-a6f9-44a9-b9d8-26ac0586b6ff/",
-    text: "Bootstrap & jQuery - Course for Beginners\nBootstrap & jQuery - Course for Beginners\nUdemy\nUdemy\nCredential ID UC-9ffae867-a6f9-44a9-b9d8-26ac0586b6ff/\nCredential ID UC-9ffae867-a6f9-44a9-b9d8-26ac0586b6ff/",
+    text: "Bootstrap & jQuery - Course for Beginners\nBootstrap & jQuery - Course for Beginners\nUdemy\nUdemy\nIssued Jun 2023\nIssued Jun 2023\nCredential ID UC-9ffae867-a6f9-44a9-b9d8-26ac0586b6ff/\nCredential ID UC-9ffae867-a6f9-44a9-b9d8-26ac0586b6ff/",
   },
   {
     href: "https://www.udemy.com/certificate/UC-a9d9a3c8-a57e-4201-ab75-05c35a3e962e/",
-    text: "Mastering HTML5: From Beginner to Advanced\nMastering HTML5: From Beginner to Advanced\nUdemy\nUdemy\nCredential ID UC-a9d9a3c8-a57e-4201-ab75-05c35a3e962e/\nCredential ID UC-a9d9a3c8-a57e-4201-ab75-05c35a3e962e/",
+    text: "Mastering HTML5: From Beginner to Advanced\nMastering HTML5: From Beginner to Advanced\nUdemy\nUdemy\nIssued Jun 2023\nIssued Jun 2023\nCredential ID UC-a9d9a3c8-a57e-4201-ab75-05c35a3e962e/\nCredential ID UC-a9d9a3c8-a57e-4201-ab75-05c35a3e962e/",
   },
+];
+
+const CS50 = [
+  {
+    href: "https://cs50.harvard.edu/certificates/376dd73c-3df7-4a02-b7ae-6a44177ff7b5",
+    text: "CS50 Puzzle Day 2024\nCS50 Puzzle Day 2024\nHarvard University\nHarvard University\nIssued Apr 2024\nIssued Apr 2024\nCredential ID 376dd73c-3df7-4a02-b7ae-6a44177ff7b5\nCredential ID 376dd73c-3df7-4a02-b7ae-6a44177ff7b5",
+  },
+];
+
+const FreeCodeCamp = [
+  {
+    href: "https://freecodecamp.org/certification/RomanLetodiani/foundational-c-sharp-with-microsoft",
+    text: "Foundational C# with Microsoft\nFoundational C# with Microsoft\nfreeCodeCamp\nfreeCodeCamp\nIssued Feb 2024\nIssued Feb 2024\nCredential ID foundational-c-sharp-with-microsoft\nCredential ID foundational-c-sharp-with-microsoft",
+  },
+  {
+    href: "https://freecodecamp.org/certification/RomanLetodiani/javascript-algorithms-and-data-structures",
+    text: "JavaScript Algorithms and Data Structures\nJavaScript Algorithms and Data Structures\nfreeCodeCamp\nfreeCodeCamp\nIssued Sep 2023\nIssued Sep 2023\nCredential ID javascript\nCredential ID javascript",
+  },
+  {
+    href: "https://freecodecamp.org/certification/RomanLetodiani/responsive-web-design",
+    text: "Responsive Web Design\nResponsive Web Design\nfreeCodeCamp\nfreeCodeCamp\nIssued Aug 2023\nIssued Aug 2023\nCredential ID responsive-web-design\nCredential ID responsive-web-design",
+  },
+];
+
+const HackerRank = [
+  {
+    href: "https://www.hackerrank.com/certificates/a4f4658a61b0",
+    text: "CSS (Basic)\nCSS (Basic)\nHackerRank\nHackerRank\nIssued Jan 2024\nIssued Jan 2024\nCredential ID a4f4658a61b0\nCredential ID a4f4658a61b0",
+  },
+  {
+    href: "https://www.hackerrank.com/certificates/fe9f6fa7abaf",
+    text: "JavaScript (Basic)\nJavaScript (Basic)\nHackerRank\nHackerRank\nIssued Jan 2024\nIssued Jan 2024\nCredential ID fe9f6fa7abaf\nCredential ID fe9f6fa7abaf",
+  },
+  {
+    href: "https://www.hackerrank.com/certificates/57ca2bed599e",
+    text: "Problem Solving (Basic)\nProblem Solving (Basic)\nHackerRank\nHackerRank\nIssued Jan 2024\nIssued Jan 2024\nCredential ID 57ca2bed599e\nCredential ID 57ca2bed599e",
+  },
+  {
+    href: "https://www.hackerrank.com/certificates/bd822af0342c",
+    text: "Python (Basic)\nPython (Basic)\nHackerRank\nHackerRank\nIssued Jan 2024\nIssued Jan 2024\nCredential ID bd822af0342c\nCredential ID bd822af0342c",
+  },
+];
+
+const EFSET = [
+  {
+    href: "https://www.efset.org/cert/Jg7rwQ",
+    text: "EF SET Certificate - C1 Advanced\nEF SET Certificate - C1 Advanced\nEF Education First\nEF Education First\nIssued Feb 2024\nIssued Feb 2024\nCredential ID Jg7rwQ\nCredential ID Jg7rwQ",
+  },
+];
+
+const SoloLearn = [
+  {
+    href: "https://links.sololearn.com/e/evib?_t=8e1553a8feb544cb867abb1fba3de1e1&_m=cf41dce10f8a4429b78c61c6ae18cb0e&_e=5299SEEywaKQBH-VSxIbwzQfduUWYrxTyS2zCffVtVvy2dcyYOFVkUnvi0EJQudU",
+    text: "JavaScript Intermediate course\nJavaScript Intermediate course\nSololearn\nSololearn\nIssued Oct 2023\nIssued Oct 2023\nCredential ID JavaScript Intermediate course\nCredential ID JavaScript Intermediate course",
+  },
+  {
+    href: "https://links.sololearn.com/e/evib?_t=8e1553a8feb544cb867abb1fba3de1e1&_m=58734646adae436fba3c74a9013d7d6a&_e=XQTLYlgq4c7Nx8NJqFGwCsBycndb6wSU2Cvp-WwNb3_b7yLAg5GR-NEDZaKKVD-t",
+    text: "Web Development course\nWeb Development course\nSololearn\nSololearn\nIssued Oct 2023\nIssued Oct 2023\nCredential ID Web Development\nCredential ID Web Development",
+  },
+  {
+    href: "https://links.sololearn.com/e/evib?_t=8e1553a8feb544cb867abb1fba3de1e1&_m=0766bb1f424947a9bd24616f031d2d8a&_e=Tj8sJVewTU-QeaDTrGEqPKThbKnAgKQ3dLA4quahNK5vL7fLIkvZpB7YRUgWl9nT",
+    text: "Introduction to CSS\nIntroduction to CSS\nSololearn\nSololearn\nIssued Sep 2023\nIssued Sep 2023\nCredential ID Introduction to CSS\nCredential ID Introduction to CSS",
+  },
+  {
+    href: "https://links.sololearn.com/e/evib?_t=8e1553a8feb544cb867abb1fba3de1e1&_m=cd0bc96a25b144f8802de3623323cf69&_e=nx7EjmjC-r42XWrktPuAayQzwzInpLAHPg6xCFTB4H1DsBAnbry4WGODeydhiPtw",
+    text: "Introduction to HTML\nIntroduction to HTML\nSololearn\nSololearn\nIssued Sep 2023\nIssued Sep 2023\nCredential ID CC-IPJQSABT\nCredential ID CC-IPJQSABT",
+  },
+  {
+    href: "https://links.sololearn.com/e/evib?_t=8e1553a8feb544cb867abb1fba3de1e1&_m=6cc0c58512264fbfbac5644af3c17b26&_e=jPF3wKkRVCLNKMsI_EMkhW1Te1Jc46BS8BuUw_zZkvun7iURT9o_WwFeAcH-lqsC",
+    text: "Introduction to Javascript\nIntroduction to Javascript\nSololearn\nSololearn\nIssued Sep 2023\nIssued Sep 2023\nCredential ID JS-introduction\nCredential ID JS-introduction",
+  },
+];
+
+const ClickUp = [
+  {
+    href: "https://verify.skilljar.com/c/xz3wgpa7vpq7",
+    text: "ClickUp Intermediate Certificate of Completion\nClickUp Intermediate Certificate of Completion\nClickUp\nClickUp\nIssued Mar 2024\nIssued Mar 2024\nCredential ID xz3wgpa7vpq7\nCredential ID xz3wgpa7vpq7",
+  },
+  {
+    href: "https://verify.skilljar.com/c/9kua7wsomupr",
+    text: "ClickUp Novice Certificate of Completion\nClickUp Novice Certificate of Completion\nClickUp\nClickUp\nIssued Mar 2024\nIssued Mar 2024\nCredential ID 9kua7wsomupr\nCredential ID 9kua7wsomupr",
+  },
+];
+export const Certificates = [
+  ...Udemy,
+  ...CS50,
+  ...FreeCodeCamp,
+  ...HackerRank,
+  ...EFSET,
+  ...SoloLearn,
+  ...ClickUp,
 ];
