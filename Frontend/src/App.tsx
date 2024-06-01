@@ -1,21 +1,9 @@
-import { certificates } from "./assets/Objects";
+import CertificatesDiv from "./Components/Certificates";
 
 const App = () => {
-  const cert: any[] = [];
-  let i = 0;
-  certificates.forEach((certificate) => {
-    const splitText = Array.from(new Set(certificate.text.split("\n")));
-    console.log("🚀 ~ certificates.forEach ~ splitText:", splitText);
-  });
-
-  console.log("🚀 ~ certificates.forEach ~ cert:", cert);
   return (
-    <div>
-      {certificates.map((certificate, index) => (
-        <a key={index} href={certificate.href}>
-          {certificate.text}
-        </a>
-      ))}
+    <div className="w-full min-h-screen p-5 min-w-[350px] bg-gradient-to-br from-green-300 to-blue-700">
+      <CertificatesDiv />
     </div>
   );
 };
